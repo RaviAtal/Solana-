@@ -69,7 +69,6 @@ const GridSection = () => {
                 Start building
               </button>
             </div>
-            <div className="py-lg-5"></div>
           </Container>
           <div>
             <Container className="bg_GridSection z_index_1"></Container>
