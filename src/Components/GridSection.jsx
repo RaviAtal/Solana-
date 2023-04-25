@@ -50,24 +50,25 @@ const GridSection = () => {
             </div>
           </Marquee>
           <Container>
-            <div className="py-lg-5"></div>
-            <div className="py-5 text-center">
-              <p className=" ff_helvetica fs-normal fs_xvii text-white">
-                It's time to join the thousands of creators, <br /> artists, and
-                developers using Solana.
-              </p>
-              <button
-                onClick={() => {
-                  setlast(0);
-                }}
-                className={
-                  last === 0
-                    ? "py-2 px_3 py-md-3 px-3 rounded-5 border-white bg-transparent text-white text-uppercase purple_bglinear_on_hover purple_bglinear fs_iii border-0"
-                    : "py-2 px_3 py-md-3 px-3 rounded-5 border-white bg-transparent text-white text-uppercase purple_bglinear_on_hover purple_bglinear fs_iii border-0"
-                }
-              >
-                Start building
-              </button>
+            <div className="py-lg-5">
+              <div className="py-5 text-center">
+                <p className=" ff_helvetica fs-normal fs_xvii text-white">
+                  It's time to join the thousands of creators, <br /> artists,
+                  and developers using Solana.
+                </p>
+                <button
+                  onClick={() => {
+                    setlast(0);
+                  }}
+                  className={
+                    last === 0
+                      ? "py-2 px_3 py-md-3 px-3 rounded-5 border-white bg-transparent text-white text-uppercase purple_bglinear_on_hover purple_bglinear fs_iii border-0"
+                      : "py-2 px_3 py-md-3 px-3 rounded-5 border-white bg-transparent text-white text-uppercase purple_bglinear_on_hover purple_bglinear fs_iii border-0"
+                  }
+                >
+                  Start building
+                </button>
+              </div>
             </div>
           </Container>
           <div>
