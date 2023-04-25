@@ -64,8 +64,8 @@ export const HeroPowerful = () => {
                 </p>
               </div>
             </div>
-            <Marquee speed={100} pauseOnHover >
-              <img src={img_one} alt="img_one" className="ms-3" />
+            <Marquee speed={100} pauseOnHover>
+              <img src={img_one} alt="img_one" className="ms-5" />
               <img src={img_two} alt="img_two" className="ms-5" />
               <img src={img_three} alt="img_three" className="ms-5" />
               <img src={img_four} alt="img_four" className="ms-5" />
