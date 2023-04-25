@@ -328,7 +328,7 @@
 }
 /* preloader */
 .preloader {
-  background: #dcc5c5;
+  background: #2e1242;
   width: 100%;
   display: flex;
   height: 100vh;
@@ -348,6 +348,21 @@ div a img.anim:hover {
   animation-iteration-count: 4;
 }
 @keyframes nonnonon {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.start {
+  animation: start;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: 5;
+}
+@keyframes start {
   0% {
     transform: rotate(90deg);
   }
