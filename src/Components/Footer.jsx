@@ -27,6 +27,7 @@ const Footer = () => {
                   <div className="d-flex">
                     <a href="#">
                       <img
+                        className="anim"
                         src={youtube_logo_footer}
                         alt="youtube_logo_footer"
                       />

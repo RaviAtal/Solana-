@@ -21,7 +21,7 @@ const BackToTop = () => {
         <button
           className={
             backTop
-              ? "d-flex justify-content-center align-items-center position-fixed bottom-0 end-0 me-3 me-sm-5 mb-3 mb-sm-5 up_btn_bg p-4 rad_50 border-0 rounded-5 bg_top"
+              ? "d-flex justify-content-center align-items-center position-fixed bottom-0 end-0 me-3 me-sm-5 mb-3 mb-sm-5 p-4 border-0 rounded-5 bg_top"
               : "d-none"
           }
           onClick={() => Top()}
